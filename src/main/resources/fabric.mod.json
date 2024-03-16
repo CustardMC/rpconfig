@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/CustardMC",
 		"sources": "https://github.com/CustardMC/rpconfig"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/rpconfig/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -27,8 +27,5 @@
 		"minecraft": ">=1.20",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
