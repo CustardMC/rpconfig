@@ -27,5 +27,23 @@
 		"minecraft": ">=1.20",
 		"java": ">=17",
 		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/invalidlink"
+			},
+			"parent": {
+				"id": "rpcconfig",
+				"name": "RPC Config",
+				"description": "This is a mod that allows configuring your Resource Packs.",
+				"icon": "assets/example-api-module-v1/parent_icon.png",
+				"badges": [ "library" ]
+			},
+			"update_checker": true
+		}
 	}
 }
